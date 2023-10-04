@@ -2,6 +2,7 @@ const botoes = document.querySelectorAll(".botao");
 const personagens = document.querySelectorAll(".personagem");
 
 function desselecionarBotao() {
+  console.log("teste")
   const botaoSelecionado = document.querySelector(".botao.selecionado");
   botaoSelecionado.classList.remove("selecionado");
 }
